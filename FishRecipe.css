@@ -1,0 +1,125 @@
+
+
+
+body {
+    background-image: url("silverware.jpg");
+    font-family: 'Segoe UI';
+    max-width: 1024px;
+    text-align: center;
+    margin: auto;
+
+  }
+
+
+  h1, h2{
+   
+    color: #a4a400;
+    text-align: center;
+    font-size: 1.5vw auto;
+    
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    max-width: 80%;
+    min-width: 50%;
+    margin: auto;
+    margin-top: 3rem;
+    height: auto;
+    background-color:#F0F0F0;
+    border-radius: 2rem;
+    border: 2px solid #73AD21;
+    
+  }
+
+
+
+  h2{
+
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    max-width: 50%;
+    margin: auto;
+    margin-top: 1rem;
+    height: auto;
+
+  }
+
+  #pID_1 {
+    text-align: center;
+
+  }
+
+  .list{
+    margin: 20px;
+    column-count: 3;
+    column-rule: 2px solid #a4a400;
+    text-align: left;
+
+  }
+
+  #image1{
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+  }
+
+  ul{
+    list-style-image: url("fish_icon_24.png");
+  }
+
+  #UserCommentsFieldsetDiv{
+    
+    margin: auto;
+    width: 50%;
+    text-align: left;
+  }
+
+  h4{
+    margin-top: 0px ;
+  }
+
+  #commentsDiv p {
+    margin: 8px auto;
+    height: 4px auto;
+    background-color: #ffffa8;
+    width: 50%;
+    text-align: left;
+   
+  }
+
+  #PersonalInfoFieldsetDiv, #recpiesDiv {
+    text-align: left;
+    margin: auto;
+    width: fit-content;
+  }
+
+  
+  #buttonSpan {
+   display: block;
+    width: 80%;
+  
+  }
+
+  #googleLink{
+    color: #a4a400;
+    text-align: center;
+  }
+
+  @media (max-width: 1024px) {
+    .list {
+      column-count: 2;
+    }
+  }
+  
+  @media (max-width: 700px) {
+    .list {
+      column-count: 1;
+    }
+  }
+
+
+  /* for the Index */
+
+  .roundImage {
+    border-radius: 50%;
+    width: 100%;
+  }

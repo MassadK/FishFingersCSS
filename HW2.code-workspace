@@ -1,0 +1,11 @@
+{
+	"folders": [
+		{
+			"name": "HW1",
+			"path": "../HW1"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "HW1"
+	}
+}
